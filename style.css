@@ -1,10 +1,64 @@
-@charset "UTF-8"
+/*font types*/
 
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monomakh&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-.playfair {
-    font-family: "Playfair Display", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
+
+
+/*color pallette*/
+:root{
+  --beige: #b4ab9a;
+  --grey: #59585558;
+  --dark: #0d0d0df3;
+  --white: #FFFFFF;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.navbar{
+  text-align: right;
+  background-color: var(--dark);
+  padding-top: 20px;
+  font-family: Noto Sans;
+}
+
+nav > a{
+  color: var(--white);
+  padding: 10px;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+nav > a:hover{
+  background-color: var(--grey);
+  color: var(--beige);
+  padding-top: 10px;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+body{
+ 
+}
+
+header{
+  background-color: var(--dark);
+  text-align: center;
+  padding: 10px;
+
+}
+
+header > h1{
+  color: var(--white);
+  font-size: 4rem;
+  margin-bottom: 0;
+}
+
+header > p{
+  color: var(--beige);
+  font-size: 1.5rem;
+}
