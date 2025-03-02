@@ -12,7 +12,7 @@
   --brown: #312a27;
   --background: #070707;
   --light: #fbe1c6;
-  --white: #A5A6A1;
+  --white: #e7e9ddd2;
 }
 
 body{
@@ -127,20 +127,69 @@ header{
 }
 
 .contact{
-  width: 100%;
+  display: flex;
+  gap: 60px;
   max-width: 1200px;
   margin: 0 auto;
 }
 
-.map{
+.left-column{
+  flex: 1;
+  min-width: 400px;
+  flex-direction: column;
+}
+
+#map{
+  padding-top: 30px;
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+
+#map iframe{
   display: block;
+  width: 100%;
+  border-radius: 5px;
+}
+
+#address{
+  padding: 15px;
+  font-size: 21px;
+  font-weight: lighter;
+  margin-top: 10px;
+  color: var(--white);
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+.right-column{
+  flex: 1;
+  min-width: 300px;
+  flex-direction: column;
+}
+
+#work-hours{
+  line-height: 1.8;
+  padding-top: 70px;
+  padding-bottom: 90px;
+  font-size: 18px;
+}
+
+#work-hours p{
+  text-align: center;
   color: var(--white);
 }
 
-#text-contact{
-  size: 50px;
+#number{
   color: var(--white);
+  text-align: center;
 }
+
+#number p{
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+
 
 .icons{
   display: none;
