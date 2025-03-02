@@ -8,11 +8,11 @@
 }
 
 :root{
-  --beige: #AB8F68;
-  --brown: #3C201D;
-  --background: #0C0203;
+  --beige: #736151;
+  --brown: #312a27;
+  --background: #070707;
   --light: #fbe1c6;
-  --white: #fffffff4;
+  --white: #A5A6A1;
 }
 
 body{
@@ -29,12 +29,6 @@ header{
   display: flex;
   align-items: center;
   padding: 20px;
-}
-
-#nav-logo{
-  color: var(--light);
-  font-size: 40px;
-  padding-right: 10px;
 }
 
 .navbar > span{
@@ -62,7 +56,7 @@ header{
 
 .nav-list a:hover{
   color: var(--beige);
-  border-bottom: 3px solid var(--brown);
+  border-bottom: 2px solid var(--brown);
 }
 
 .home{
@@ -75,8 +69,7 @@ header{
 #text-home{
   font-size: 19px;
   font-weight: lighter;
-  text-align: center;
-
+  text-align: justify;
   color: var(--white);
   padding-left: 60px;
   line-height: 1.8;
@@ -88,7 +81,7 @@ header{
 
 #img-home img{
   border-radius: 10px;
-  box-shadow: 5px 5px 15px #26080b79;
+  box-shadow: 5px 5px 15px #4b3b3521;
   margin-top: -30px;
 }
 
