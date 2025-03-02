@@ -175,6 +175,7 @@ header{
 }
 
 #work-hours p{
+  font-weight: lighter;
   text-align: center;
   color: var(--white);
 }
@@ -189,7 +190,13 @@ header{
   margin-bottom: 15px;
 }
 
-
+.whatsapp-button{
+  display: flex;
+  padding: 10px; 
+  font-size: 65px;
+  align-items: center;
+  justify-content: center;
+}
 
 .icons{
   display: none;
