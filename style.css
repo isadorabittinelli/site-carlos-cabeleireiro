@@ -8,14 +8,15 @@
 }
 
 :root{
-  --beige: #b4ab9a;
-  --grey: #59585558;
-  --dark: #0d0d0df3;
-  --white: #FFFFFF;
+  --beige: #AB8F68;
+  --brown: #3C201D;
+  --background: #0C0203;
+  --light: #fbe1c6;
+  --white: #fffffff4;
 }
 
 body{
-  background-color: var(--dark);
+  background-color: var(--background);
 }
 
 header{
@@ -31,14 +32,14 @@ header{
 }
 
 #nav-logo{
-  color: var(--white);
+  color: var(--light);
   font-size: 40px;
   padding-right: 10px;
 }
 
 .navbar > span{
-  color: var(--white);
-  font-size: 30px;
+  color: var(--light);
+  font-size: 35px;
   font-weight: 400;
   margin-right: 40px;
   margin-left: 40px;
@@ -55,13 +56,40 @@ header{
 }
 
 .nav-list a{
-  color: var(--white);
+  color: var(--light);
   text-decoration: none;
-
 }
+
 .nav-list a:hover{
   color: var(--beige);
-  border-bottom: 3px solid var(--grey);
+  border-bottom: 3px solid var(--brown);
+}
+
+.home{
+  display: flex;
+  gap: 60px;
+  padding-top: 50px;
+  justify-content: space-between;
+}
+
+#text-home{
+  font-size: 19px;
+  font-weight: lighter;
+  text-align: center;
+
+  color: var(--white);
+  padding-left: 60px;
+  line-height: 1.8;
+}
+
+#img-home{
+  padding-right: 60px;
+}
+
+#img-home img{
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px #26080b79;
+  margin-top: -30px;
 }
 
 .icons{
