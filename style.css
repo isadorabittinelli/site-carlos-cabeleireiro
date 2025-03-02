@@ -21,7 +21,7 @@ body{
 
 header{
   width: 100%;
-  padding: 30px 8%;
+  padding: 50px 8%;
 }
 
 .navbar{
@@ -31,10 +31,10 @@ header{
   padding: 20px;
 }
 
-.navbar > span{
+.navbar span{
   color: var(--light);
   font-size: 35px;
-  font-weight: 400;
+  font-weight: 500;
   margin-right: 40px;
   margin-left: 40px;
 }
@@ -42,10 +42,10 @@ header{
 .nav-list{
   display: flex;
   list-style: none;
-  gap: 150px;
+  gap: 100px;
   margin: 0;
   padding: 0;
-  margin-left: 200px;
+  margin-left: 250px;
   font-size: 17px;
 }
 
@@ -83,6 +83,63 @@ header{
   border-radius: 10px;
   box-shadow: 5px 5px 15px #4b3b3521;
   margin-top: -30px;
+}
+
+.services{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  margin-top: 30px;
+}
+
+.box{
+  width: 250px;
+  background-color: #312a276b;
+  border-radius: 15px;
+  padding: 10px;
+  transition: all 0.5s ease;
+  text-align: center;
+  overflow: hidden;
+}
+
+.box:hover{
+  transform: translateY(-17px);
+}
+
+.box img{
+  height: auto;
+  display: block;
+  margin: 0 auto 10px;
+  border-radius: 10px;
+  transition: transform 0.5s ease;
+}
+
+.descricao{
+  font-size: 16px;
+  color: var(--white);
+  font-weight: lighter;
+}
+
+.contact{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.map{
+  display: block;
+  color: var(--white);
+}
+
+#text-contact{
+  size: 50px;
+  color: var(--white);
 }
 
 .icons{
