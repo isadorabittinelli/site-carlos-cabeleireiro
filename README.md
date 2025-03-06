@@ -6,7 +6,7 @@
 •  Responsivo
 <br><br>
 <h3>⌨️ Tecnologias utilizadas</h3>
-HTML | CSS 
+HTML | CSS | JavaScript
 <br><br>
 <h3>🎯Status do projeto</h3>
 Concluído
